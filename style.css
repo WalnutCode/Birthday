@@ -4,14 +4,13 @@ body{
 
 }
 .ten{
-    color:skyblue;
+    color:teal;
     text-align:center;
     font-size:50px;
     font-family: 'Rozha One', serif;
     -webkit-animation-name:grow;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-
 }
 .when{
     color:#ffb84d;
@@ -23,14 +22,22 @@ body{
     animation-duration: 4s;
     animation-direction: reverse;
     font-family: 'IBM Plex Mono', monospace;
-   
-     
 }
 .where{
     color:#4dff88;
+    font-family: 'Indie Flower', cursive;
+}
+.who{
+    color:navy;
+    text-align:left;
+    font-family: 'Supermercado One', cursive;
     -webkit-animation-name:color;
     animation-duration: 1s;
-    animation-iteration-count:10
+    animation-iteration-count:1;
+}
+.why{
+    color:lightseagreen;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
@@ -41,7 +48,7 @@ body{
     100% { left:0px; top:0px;}
 }
 
-/* Standard syntax */
+/* Standard xsyntax */
 @keyframes example {
     0%   {left:0px; top:0px;}
     25%  { left:200px; top:0px;}
